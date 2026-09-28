@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadDescription</key>
+            <string>DNS V2 Proxy Configuration</string>
+            <key>PayloadDisplayName</key>
+            <string>DNS V2🇧🇷</string>
+            <key>PayloadIdentifier</key>
+            <string>com.shikukame.dnsproxy</string>
+            <key>PayloadType</key>
+            <string>com.apple.dnsProxy.managed</string>
+            <key>PayloadUUID</key>
+            <string>8A9B0C1D-2E3F-4567-8901-234567890123</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>ProviderBundleIdentifier</key>
+            <string>com.apple.networkextension.proxy</string>
+            <key>Providertypestr</key>
+            <string>App-Proxy</string>
+            <key>UserDefinedName</key>
+            <string>DNS V2🇧🇷</string>
+            <key>TunnelConfiguration</key>
+            <dict>
+                <key>TunnelType</key>
+                <string>Packet</string>
+                <key>Address</key>
+                <string>10.8.0.2</string>
+                <key>Netmask</key>
+                <string>255.255.255.0</string>
+                <key>DNSSettings</key>
+                <dict>
+                    <key>ServerAddresses</key>
+                    <array>
+                        <string>1.1.1.1</string>
+                        <string>8.8.8.8</string>
+                    </array>
+                </dict>
+            </dict>
+        </dict>
+    </array>
+    <key>PayloadDescription</key>
+    <string>shikukame👑</string>
+    <key>PayloadDisplayName</key>
+    <string>DNS V2🇧🇷</string>
+    <key>PayloadIdentifier</key>
+    <string>com.shikukame.profile</string>
+    <key>PayloadOrganization</key>
+    <string>shikukame👑</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>56789012-BCDE-F012-3456-789ABCDEF014</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>
